@@ -39,4 +39,4 @@ ul, li {
 <hr>
 <h3>Mock-Up</h3>
 <p>The following animation demonstrates the application functionality:</p>
-<img src="https://adelaide.bootcampcontent.com/the-university-of-adelaide/uadel-virt-fsf-pt-11-2021-u-c/-/raw/master/04-Web-APIs/02-Homework/Assets/04-web-apis-homework-demo.gif" alt="animation of code quiz"/>
+<img src="./assets/images/04-web-apis-homework-demo.gif" alt="animation of code quiz"/>
