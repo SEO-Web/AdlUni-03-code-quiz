@@ -1,11 +1,11 @@
-style {
+<style>
 hr {
     margin: 20px;
 }
 ul, li {
     list-style: none;
 }
-}
+</style>
 <h1># AdlUni-04-code-quiz</h1>
 <hr>
 <h3>Your Task</h3>
