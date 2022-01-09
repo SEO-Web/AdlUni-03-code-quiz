@@ -19,9 +19,6 @@ h1 {
     font-size: 160%;
     color: var(--black);
     line-height: 1.8;
-    vertical-align: middle;
-    position:relative;
-    top:30px;
 }
 h2 {
     font-family: 'Poppins', sans-serif;
@@ -42,6 +39,15 @@ a {
 a:hover {
     color: var(--orange);
 }
+
+/* center content on page */
+content {
+    max-width: 600px;
+    position:relative;
+    top: 30px;
+}
+
+/* questions styling */
 .question {
     font-family: 'Poppins', sans-serif;
     color: var(--black);
@@ -55,6 +61,7 @@ a:hover {
     color:#666666;
 }
 
+
 /* align header items */
 .left {
     float:left;
@@ -66,6 +73,8 @@ a:hover {
 /* high scores page css */
 .high_scores {
     max-width: 600px;
+    position:relative;
+    top: 100px;
 }
 .high_scores h1 {
     font-family: 'Poppins', sans-serif;
@@ -73,16 +82,13 @@ a:hover {
     font-size: 160%;
     color: var(--black);
     line-height: 1.8;
-    position:relative;
-    top:30px;
 }
 .btn {
     background-color:var(--purple);
     color: #ffffff;
     padding:3px 12px;
     width:200px;
-    position:relative;
-    top:70px;
+    margin: 10px 0;
 }
 .btn:hover {
     background-color:var(--blue);
@@ -93,6 +99,20 @@ a:hover {
     color:var(--black);
     background-color: #eb82ed;
     padding: 3px;
-    position:relative;
-    top:50px;
+    margin: 10px 0;
+}
+
+/* small screen */
+@media screen and (max-width: 599px) {
+content {
+    max-width: 100%;
+    padding: 10px;
+}
+.high_scores {
+    width: 100%;
+    padding: 10px;
+}
+.btn {
+    width:auto;
+}
 }
